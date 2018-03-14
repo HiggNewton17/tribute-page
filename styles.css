@@ -1,0 +1,28 @@
+
+
+header {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.scroll-bar {
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 85%;
+  height: 200px;
+  background-image: url(http://www.azquotes.com/picture-quotes/quote-nothing-is-as-strong-as-the-heart-of-a-volunteer-jimmy-doolittle-58-8-0844.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#btn-left {
+  grid-column: 1 / span 1;
+
+}
+
+#btn-right {
+  grid-column: 3 / span 1;
+}
+
