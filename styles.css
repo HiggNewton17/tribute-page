@@ -1,8 +1,16 @@
-
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
 
 header {
   width: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.932);
+  text-transform: uppercase;
+  color: white;
+  border: rgb(27, 26, 26) solid;
+  border-radius: 5px;
 }
 
 .scroll-bar {
@@ -19,10 +27,15 @@ header {
 
 #btn-left {
   grid-column: 1 / span 1;
-
+  color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5em 1em 5em 1em;
 }
 
 #btn-right {
   grid-column: 3 / span 1;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5em 1em 5em 1em;
 }
 
