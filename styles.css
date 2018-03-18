@@ -1,17 +1,42 @@
 body {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #ebebeb;
   justify-content: center;
   align-items: center;
 }
 
+/* where VW < 750px */
 header {
   width: 100%;
-  background: rgba(0, 0, 0, 0.932);
+  color: white;
+  padding: 10px 20px ;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  background:#2e2e2e;
+  text-transform: uppercase;
+}
+
+
+/* where VW > 1000px */
+/* header {
+  width: 100%;
+  color: #151515;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  background: white;
+  text-transform: uppercase;
+} */
+
+
+/* where VW is between 750 - 1000px */
+/* header {
+  width: 100%;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  background: #2e2e2e;
   text-transform: uppercase;
   color: white;
-  border: rgb(27, 26, 26) solid;
-  border-radius: 5px;
-}
+} */
 
 .scroll-bar {
   display: grid;
@@ -25,6 +50,8 @@ header {
   background-size: cover;
 }
 
+
+/* when hovered over */
 #btn-left {
   grid-column: 1 / span 1;
   color: black;
@@ -32,6 +59,7 @@ header {
   padding: 5em 1em 5em 1em;
 }
 
+/* when hovered over */
 #btn-right {
   grid-column: 3 / span 1;
   color: black;

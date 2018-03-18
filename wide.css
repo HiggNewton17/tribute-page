@@ -1,0 +1,97 @@
+/* width >= 1001px */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+  color: #151515;
+  padding: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  background: white;
+  text-transform: uppercase;
+}
+
+section {
+  font-family: Roboto Condensed;
+  letter-spacing: .005em;
+  word-spacing: .08em;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Open Sans;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 85%;
+  height: 200px;
+  background-image: url(http://www.azquotes.com/picture-quotes/quote-nothing-is-as-strong-as-the-heart-of-a-volunteer-jimmy-doolittle-58-8-0844.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#btn-left > button {
+  border: none;
+  color: white;
+  background: none;
+  font-size: 25px;
+}
+
+#btn-right > button {
+  border: none;
+  color: white;
+  background: none;
+  font-size: 25px;
+}
+
+#btn-left:hover {
+  grid-column: 1 / span 1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+#btn-left {
+  grid-column: 1 / span 1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#btn-right:hover {
+  grid-column: 3 / span 1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+#btn-right {
+  grid-column: 3 / span 1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
