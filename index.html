@@ -1,61 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Jimmy Doolittle</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link id= "size-stylesheet" rel="stylesheet" type="text/css" media="screen" href="narrow.css" />
+  <link id="size-stylesheet" rel="stylesheet" type="text/css" media="screen" href="narrow.css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed" rel="stylesheet">
 
 </head>
 
 
 <body>
-  <header><span>James H. Doolittle</span></header>
+  <header>
+    <span>James H. Doolittle</span>
+  </header>
 
   <div class="hero">
-    <div id="btn-left"><button><</button></div>
-    <div id="btn-right"><button>></button></div>
-  </div>
-  <div id="scroll-radio"><input type="radio"></input><input type="radio"></input><input type="radio"></input><input type="radio"></input>
+    <div id="btn-left">
+      <button>
+        <</button>
     </div>
-  <div class="content">
-    <section class="intro">
-      <div class="collapsable"><h3><span class="section-title">Introduction</span> <span class="section-collapse-btn"><button class="collapse-btn">+</button></span></h3></div>
-        <p>General James Harold “Jimmy” Doolittle (1896-1993) was a pioneering pilot,aeronautical engineer, combat leader and military
-        strategist whose career stretched from World War I to the height of the Cold War. He is most famous for leading a daring
-        bombing raid over Tokyo in 1942, the first American attack on the Japanese mainland. Doolittle’s 16 planes dropped their
-        bombs and then, lacking fuel to return to their carrier, flew on to crash-land in China and the Soviet Union.</p>
-    </section>
-    <section class="early-years">
-      <div class="collapsable"><h3><span class="section-title">Early Years</span> <span class="section-collapse-btn"><button class="collapse-btn">+</button></span></h3></div>
-        <p> James Harold “Jimmy” Doolittle was born in Alameda, California, but spent much of his childhood in western Alaska. His father,
-        Frank, was a gold prospector and carpenter in Nome, where young Jimmy learned to fight bullies and pilot a dogsled. Eventually
-        Rosa and Jimmy Doolittle returned to California, leaving Frank behind. Did You Know? To aid his record-breaking 1922 coast-to-coast
-        flight, U.S. military strategist Jimmy Doolittle invented a funnel-and-tube-based "pilot dehydrator"—possibly the earliest
-        airplane toilet. Jimmy attended high school in Los Angeles, where he distinguished himself as a gymnast and boxer. He then
-        began courses at the University of California at Berkeley’s School of Mines.</p>
-    </section>
-    <section class="doolittle-raid">
-      <div class="collapsable"><h3><span class="section-title">Doolittle Raid</span> <span class="section-collapse-btn"><button class="collapse-btn">+</button></span></h3></div>
-        <p> Returning to the army full-time in 1940, Doolittle continued his test pilot work until January of 1942, when he was summoned
-        by General Henry H. “Hap” Arnold to lead a raid on the Japanese mainland. At the time Japan’s defensive perimeter in the
-        Pacific was wide enough to make it invulnerable to conventional carrier-based attacks. Sixteen Army B-25 bombers were rigged
-        with doubled fuel capacity and loaded on the aircraft carrier USS Hornet. The original plan called for bombing five major
-        cities, but last-minute detection of the Hornet forced the planes to launch a day early. With Doolittle in the lead, the
-        planes survived storms and anti-aircraft fire to drop four bombs each on Tokyo, striking industrial facilities and a light
-        cruiser. Several bombs hit civilian areas, killing 50 and injuring 400. The Doolittle Raiders, as the planes’ pilots became
-        known, flew on toward China. They had planned to land in areas controlled by Chinese Nationalists, but all ran out of fuel
-        and crashed. Most of the crews parachuted to the ground, where with local help they were able to reach the Nationalist lines.
-        One crew landed in Vladivostok and was interned by the Soviets. Three died in the crashes, and eight were captured by the
-        Japanese.</p>
-  </section>
+    <div id="btn-right">
+      <button>></button>
+    </div>
   </div>
+  <div id="scroll-radio">
+    <input type="radio"></input>
+    <input type="radio"></input>
+    <input type="radio"></input>
+    <input type="radio"></input>
+  </div>
+  <div class="content">
+    <section id="intro">
+      <div class="collapsable">
+        <h3>
+          <span class="section-title">Introduction</span>
+        </h3>
+        <span class="section-collapse-btn">
+          <button class="collapse-btn">+</button>
+        </span>
+      </div>
+      <p>General James Harold “Jimmy” Doolittle (1896-1993) was a pioneering pilot, aeronautical engineer, combat leader and
+        military strategist whose career stretched from World War I to the height of the Cold War. He is most famous for
+        leading a daring bombing raid over Tokyo in 1942, the first American attack on the Japanese mainland. Doolittle’s
+        16 planes dropped their bombs and then, lacking fuel to return to their carrier, flew on to crash-land in China and
+        the Soviet Union.</p>
+    </section>
+    <section id="early-years">
+      <div class="collapsable">
+        <h3>
+          <span class="section-title">Early Years</span>
+        </h3>
+        <span class="section-collapse-btn">
+          <button class="collapse-btn">+</button>
+        </span>
+      </div>
+      <p> James Harold “Jimmy” Doolittle was born in Alameda, California, but spent much of his childhood in western Alaska.
+        His father, Frank, was a gold prospector and carpenter in Nome, where young Jimmy learned to fight bullies and pilot
+        a dogsled. Eventually Rosa and Jimmy Doolittle returned to California, leaving Frank behind. Did You Know? To aid
+        his record-breaking 1922 coast-to-coast flight, U.S. military strategist Jimmy Doolittle invented a funnel-and-tube-based
+        "pilot dehydrator"—possibly the earliest airplane toilet. Jimmy attended high school in Los Angeles, where he distinguished
+        himself as a gymnast and boxer. He then began courses at the University of California at Berkeley’s School of Mines.</p>
+    </section>
+    <section id="doolittle-raid">
+      <div class="collapsable">
+        <h3>
+          <span class="section-title">Doolittle Raid</span>
+        </h3>
+        <button class="collapse-btn">+</button>
+      </div>
+      <p> Returning to the army full-time in 1940, Doolittle continued his test pilot work until January of 1942, when he was
+        summoned by General Henry H. “Hap” Arnold to lead a raid on the Japanese mainland. At the time Japan’s defensive
+        perimeter in the Pacific was wide enough to make it invulnerable to conventional carrier-based attacks. Sixteen Army
+        B-25 bombers were rigged with doubled fuel capacity and loaded on the aircraft carrier USS Hornet. The original plan
+        called for bombing five major cities, but last-minute detection of the Hornet forced the planes to launch a day early.
+        With Doolittle in the lead, the planes survived storms and anti-aircraft fire to drop four bombs each on Tokyo, striking
+        industrial facilities and a light cruiser. Several bombs hit civilian areas, killing 50 and injuring 400. The Doolittle
+        Raiders, as the planes’ pilots became known, flew on toward China. They had planned to land in areas controlled by
+        Chinese Nationalists, but all ran out of fuel and crashed. Most of the crews parachuted to the ground, where with
+        local help they were able to reach the Nationalist lines. One crew landed in Vladivostok and was interned by the
+        Soviets. Three died in the crashes, and eight were captured by the Japanese.
+      </p>
+    </section>
+  </div>
+
+  <a href="https://www.history.com/topics/world-war-ii/james-h-doolittle">History Channel Webpage - James H. Doolittle</a>
 
 
 
 
   <script src="app.js"></script>
 </body>
+
 </html>

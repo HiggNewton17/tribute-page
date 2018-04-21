@@ -1,13 +1,18 @@
+const intro = document.getElementById('intro');
+
+const introBtn = document.querySelector('button.collapse-btn');
+
+const introText = document.querySelector('#intro p');
 
 
-window.addEventListener("resize", function adjustStyle(innerWidth) {
-  if (this.innerWidth < 751) {
-    document.getElementById("size-stylesheet").setAttribute("href", "narrow.css");
-  } else if (this.innerWidth < 1001) {
-    document.getElementById("size-stylesheet").setAttribute("href", "medium.css");
+function hide() {
+  introText.classList.toggle('hidden');
+  if(introText.getAttribute('class') == 'hidden') {
+    introBtn.textContent = '+';
+    console.log('working');
   } else {
-    document.getElementById("size-stylesheet").setAttribute("href", "wide.css");
+    introBtn.textContent = '-';
   }
-  console.log(this.innerWidth < 751);
+};
 
-});
+introBtn.addEventListener('click', hide);
